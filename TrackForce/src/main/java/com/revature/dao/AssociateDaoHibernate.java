@@ -1,7 +1,6 @@
 package com.revature.dao;
 
 import java.sql.Timestamp;
-
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -7,7 +7,6 @@ import { AuthenticationService } from '../../services/authentication-service/aut
 import { Router } from '@angular/router';
 import { AutoUnsubscribe } from '../../decorators/auto-unsubscribe.decorator';
 
-
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -56,13 +55,7 @@ export class LoginComponent implements OnInit {
     }
 
   }
-  /**
-  *Function Wrapper for create-user createuser()
-  */
-  createUser(){
-  	
-  	this.router.navigate(['create-user']);
-  }
+
   /**
   * Function wrapper for AuthenticationService login()
   * Sends user input to service for real login
